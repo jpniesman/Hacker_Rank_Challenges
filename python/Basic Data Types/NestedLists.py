@@ -31,7 +31,7 @@ if __name__ == '__main__':
     scores = [x[1] for x in name_and_score]
     min_li = sorted(set(scores))
     students = sorted([y[0] for y in name_and_score if y[1]==min_li[1]])
-[   print(k) for k in students]
+    [print(k) for k in students]
 
 
     
